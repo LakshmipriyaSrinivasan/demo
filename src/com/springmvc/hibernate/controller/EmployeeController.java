@@ -24,7 +24,7 @@ public class EmployeeController {
 	 }
 	
 	
-	@RequestMapping("/employeeForm")
+	@RequestMapping("/employeeform")
 	public ModelAndView showform() {
 		// command is a reserved request attribute name, now use <form> tag to show
 		// object data
